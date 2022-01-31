@@ -196,14 +196,14 @@ h5 {
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 425px) {
-    .time_container {
-        margin: 30px 0;
-    }
-}
 @media screen and (max-width: 992px) {
     .time {
         margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .time_container {
+        margin: 30px 0;
     }
 }
 .common_box {

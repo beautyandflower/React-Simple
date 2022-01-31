@@ -120,7 +120,7 @@ export default function Features() {
                         <div className={`feature_desc_content`}>
                             {/* <h2 className='heading_md text_white mt-4 heading_pink_border text-left'><span>1</span>Launch</h2> */}
                             <div className="heading-wraper justify-content-center">
-                                <Heading3 number="4" title="Automate" back="true" backcolor="bg_darkblue" headclass="blue_heading head_mar" />
+                                <Heading3 number="4" title="Automate" back="true" backcolor="bg_darkblue" headclass="blue_heading head_mar automate_header" />
                             </div>
                             <span className="paragraph_md content_text"> 10x your GameFi yield farming  </span>
                             <div className="content_point white paragraph_md content_text">
