@@ -31,7 +31,7 @@ export default function Features() {
     </section>
         <section className="features_description">
             <div className="container">
-                <div className="row">
+                <div className="row launch_row">
                     <div className="col-md-6">
                         <div className={`feature_desc_content`}>
                             {/* <h2 className='heading_md text_white mt-4 heading_pink_border text-left'><span>1</span>Launch</h2> */}
@@ -57,6 +57,7 @@ export default function Features() {
                         </div>
                     </div>
                 </div>
+
                 <div className="row">
                     <div className="col-md-6">
                         <div className={`feature_desc_content`}>
@@ -86,7 +87,7 @@ export default function Features() {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row trade_row">
                     <div className="col-md-6">
                         <div className={`feature_desc_content`}>
                             {/* <h2 className='heading_md text_white mt-4 heading_pink_border text-left'><span>1</span>Launch</h2> */}

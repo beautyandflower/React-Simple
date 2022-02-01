@@ -12,7 +12,7 @@ export default function Hero() {
             <h2 className='heading_lg text_white mt-4 heading_pink_border'></h2>
             <p className='mt-3 paragraph'>Invest in the Metaverse Starting at $10 </p>
             <div className="time_container">
-                <Time Date="2" Month="2" dots="true" />
+                <Time Date="7" Month="2" dots="true" />
             </div>
             <button className='start_soon_btn'>Start Soon</button>
         </div>

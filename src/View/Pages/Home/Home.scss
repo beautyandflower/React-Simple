@@ -39,6 +39,9 @@
 // Hero Section End
 
 // Feature Section
+.headings3 .no-stroke {
+    margin-left: 2px;
+}
 .features {
     padding: 100px 0 180px 0;
     background-image: url("./../../../Assets/images/feature.jpg");
@@ -95,6 +98,13 @@
         padding: 70px 0 0 0;
     }
 }
+
+.features_description .launch_row .feature_desc_img {
+    padding-right: 70px;
+}
+.features_description .trade_row .feature_desc_img {
+    padding-right: 70px;
+}
 .features_description {
     background: $lightblue;
     padding: 115px 0;
@@ -147,14 +157,14 @@
     .container .row:nth-child(3) {
         .feature_desc_img::after {
             background-image: url("./../../../Assets/images/line8.svg");
-            right: -270px;
+            right: -350px;
             top: 150px;
             height: 340px;
             width: 415px;
         }
         .feature_desc_content::after {
             background-image: url("./../../../Assets/images/line7.svg");
-            left: -65px;
+            left: -145px;
             bottom: 40px;
         }
     }
@@ -173,6 +183,16 @@
             top: 50px;
             width: 370px;
             height: 834px;
+        }
+    }
+
+    .container .automate_row.row {
+        .feature_desc_img::after {
+            left: -290px;
+        }
+
+        .feature_desc_content::after {
+            right: -260px;
         }
     }
 
@@ -752,6 +772,14 @@
 
 .automate_header {
     margin-left: -20px;
+}
+
+.trade_row {
+    position: relative;
+
+    .feature_desc_content {
+        position: unset;
+    }
 }
 
 @media screen and (max-width: 767px) {

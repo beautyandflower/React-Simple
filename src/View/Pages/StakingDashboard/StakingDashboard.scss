@@ -923,6 +923,21 @@ h2 {
 }
 
 @media screen and (max-width: 1400px) {
+    .idosales .idosales_container {
+        > .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .balance {
+            order: 1;
+        }
+
+        .project_row {
+            order: -1;
+        }
+    }
+
     .container {
         max-width: 90vw;
     }

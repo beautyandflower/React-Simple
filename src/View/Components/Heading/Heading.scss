@@ -223,6 +223,25 @@
 }
 .head_mar {
   margin-left: -130px;
+  &.trade_header {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .launch_row .heading-wraper {
+    transform: translateX(70px);
+  }
+  .trade_row .heading-wraper {
+    transform: translateX(160px);
+  }
+}
+@media screen and (min-width: 1500px) {
+  .launch_row .heading-wraper {
+    transform: translateX(160px);
+  }
+  .trade_row .heading-wraper {
+    transform: translateX(160px);
+  }
 }
 @media screen and (max-width: 1440px) {
   .whyarcade .why_row .why_arcade_box {
@@ -238,6 +257,9 @@
   .heading-wraper {
     position: absolute;
     margin-top: -10rem;
+  }
+  .trade_row .heading-wraper {
+    left: 0;
   }
 }
 @media screen and (max-width: 575px) {
